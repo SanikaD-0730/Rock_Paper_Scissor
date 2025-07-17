@@ -1,0 +1,93 @@
+body{
+    background-color: cadetblue;
+}
+
+h1{
+    font: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 500px;
+}
+/* images container */
+.row-container{
+    margin-top: 50px; 
+    display: flex;
+    justify-content: center;
+    
+}
+
+#rock{
+    height:230px;
+    width:230px;
+    margin-right: 50px;
+    font-size: 20px;
+    border-radius: 150px;
+}
+
+#rock img{
+    height:200px;
+    width:200px; 
+   border-radius: 150px;
+}
+
+#paper{
+    height:230px;
+    width:230px;
+    margin-right: 50px;
+    font-size: 20px;
+    border-radius: 150px;
+}
+
+#paper img{
+    height:200px;
+    width:200px; 
+    border-radius: 150px;
+}
+
+#scissor{
+    height:230px;
+    width:230px;
+    font-size: 20px;
+    border-radius: 150px;
+}
+
+#scissor img{
+    height:200px;
+    width:200px; 
+    border-radius: 150px; 
+}
+/* count container */
+.row-container2{
+    font-size: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+}
+
+.countYou{
+    margin-right: 20px;
+}
+
+.countComp{
+    margin-right: 20px;
+}
+
+#you0{
+    display: flex;
+    justify-content: center;
+}
+
+#comp0{
+    display: flex;
+    justify-content: center;
+}
+
+/* turn container */
+.msg-container{
+    font-size: 27px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+     
